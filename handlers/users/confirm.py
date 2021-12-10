@@ -26,7 +26,7 @@ async def confirm_post(call: CallbackQuery, state: FSMContext):
     # image = data.get('image')
 
     # name = bot.get(User.full_name)
-    msg = f"❗️❗️❗️ <b>Mahsulot sotiladi</b>\n\n"
+    msg = f"❗️❗️❗️ <b>Ustoz kerak:</b>\n\n"
     msg += f"🎓 Shogird:  {name}\n"
     msg += f"🌐 Yosh:  {old}\n"
     msg += f"📚 Texnologiya:{tech}\n"
